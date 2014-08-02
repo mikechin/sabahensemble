@@ -85,6 +85,12 @@ h3 {
 	width: 100%;
 }
 
+li:before {
+	color: #84AC1F;
+	content: "\002022";
+	padding-right: 1em;
+}
+
 .nav {
 	background-color: #777777;
 	border-top: 1px solid #000000;
@@ -140,6 +146,10 @@ table {
 
 td {
 	padding-right: 10px;
+}
+
+ul {
+	list-style: none;
 }
 
 .view {
