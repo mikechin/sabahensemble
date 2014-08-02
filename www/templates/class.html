@@ -11,15 +11,20 @@
 			<td><b>When:</b></td><td>Thursday evenings 7:45-9:45 pm</td>
 		</tr>
 		<tr>
-			<td>Where:</td><td>Berkeley Moving Arts / Western Sky Studio</td>
+			<td>Where:</td><td><a href="" ng-click="showMap()">Berkeley Moving Arts / Western Sky Studio<a></td>
 		</tr>
 		<tr>
 			<td></td><td>2525 8th Street #13A (near Dwight Way)</td>
 		</tr>
 		<tr>
-			<td></td><td>Berkeley, CA 94710 [LINK TO LOCATION AT GOOGLE MAPS]</td>
+			<td></td><td>Berkeley, CA 94710</td>
 		</tr>
 	</table>
+	<p class="map" ng-if="show">
+		<google-map center="map.center" pan="false" zoom="map.zoom">
+			<marker coords="map.center"></marker>
+		</google-map>
+	</p>
 	<p>Our class accepts <b>first-time students</b> on the first Thursday of the month</p>
 	<p>
 		<div>This is a multi-level class</div>
