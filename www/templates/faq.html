@@ -26,6 +26,7 @@
 	<p class="answer">We are part of <a href="http://www.BerkeleyMovingArts.com" target="_blank">Berkeley Moving Arts</a>, a center for dance and movement classes emphasizing a body-mind approach, located at Western Sky Studio.  The address is:  <a href="" ng-click="showMap()">2525 8th Street $13A (near Dwight Way), Berkeley, CA 94710.<a></p>
 	<p class="map" ng-if="show">
 		<google-map center="map.center" pan="false" zoom="map.zoom">
+			<marker coords="map.center"></marker>
 		</google-map>
 	</p>
 
