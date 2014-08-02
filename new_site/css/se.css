@@ -1,24 +1,54 @@
-blockquote {
-	font-size: 0.8em;
-	font-style: italic;
+a:link {
+	color: #777777;
 }
 
-blockquote center {
-	font-size: 2em;
-	padding-bottom: 10px;
+a:visited {
+	color: #777777;
+}
+
+a:hover {
+	color: #777777;
+}
+
+a:active {
+	color: #777777;
+}
+
+body {
+	background-image: url('../assets/img/bg_wallpaper.jpg');
+	color: #777777;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 1em;
+}
+
+blockquote {
+	font-size: 1em;
+	font-style: italic;
+	padding: 2em 0 0 0;
+	-webkit-margin-after: 0;
+	-webkit-margin-before: 0;
+	-webkit-margin-end: 0;
+	-webkit-margin-start: 0;
 }
 
 .cite {
 	font-size: 0.8em;
 	font-style: italic;
-	padding: 10px 0 10px 45em;
+	padding: 10px 0 2em 45em;
 }
 
 .content {
+	background-color: rgba(0, 0, 0, 0.4);
 	height: 100%;
 	margin-left: auto;
 	margin-right: auto;
+	padding: 2em 0.5em 2em 0.5em;
 	width: 75%;
+}
+
+h2 {
+	font-size: 2.5em;
+	-webkit-margin-before: 0;
 }
 
 h3 {
@@ -74,31 +104,11 @@ h3 {
 	padding-top: 10px;
 }
 
+.quote {
+	padding: 0 2em 0 2em;
+}
+
 .view {
-	height: 40px;
 	min-width: 760px;
 	width: 100%;
 }
-
-body {
-	font-family: "Trebuchet MS", Helvetica, sans-serif;
-	font-size: 1em;
-	color: #777777;
-}
-
-a:link {
-	color: #777777;
-}
-
-a:visited {
-	color: #777777;
-}
-
-a:hover {
-	color: #777777;
-}
-
-a:active {
-	color: #777777;
-}
-
