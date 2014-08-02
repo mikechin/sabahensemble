@@ -10,14 +10,14 @@
 		<div class="header">
 			<img src="assets/img/logo.png" alt="The Sabah Ensemble" />
 		</div>
-		<div class="nav">
-			<a href="#/home"><div>HOME</div></a>
-			<a href="#/class"><div>CLASS</div></a>
-			<a href="#/faq"><div>FAQ</div></a>
-			<a href="#/news"><div>NEWS</div></a>
-			<a href="#/media"><div>MEDIA GALLERY</div></a>
-			<a href="#/about"><div>ABOUT</div></a>
-			<a href="#/contact"><div>CONTACT US</div></a>
+		<div class="nav" ng-controller="NavController">
+			<a href="#/home" ng-class="{ active: isActive('/') }"><div>HOME</div></a>
+			<a href="#/class" ng-class="{ active: isActive('/class') }"><div>CLASS</div></a>
+			<a href="#/faq" ng-class="{ active: isActive('/faq') }"><div>FAQ</div></a>
+			<a href="#/news" ng-class="{ active: isActive('/news') }"><div>NEWS</div></a>
+			<a href="#/media" ng-class="{ active: isActive('/media') }"><div>MEDIA GALLERY</div></a>
+			<a href="#/about" ng-class="{ active: isActive('/about') }"><div>ABOUT</div></a>
+			<a href="#/contact" ng-class="{ active: isActive('/contact') }"><div>CONTACT US</div></a>
 		</div>
 		<div class="view" ng-view></div>
 	</body>
