@@ -22,6 +22,7 @@ se.config(['$routeProvider', function($routeProvider) {
 			templateUrl: 'templates/about.html'
 		}).
 		when('/contact', {
+			controller: 'MapController',
 			templateUrl: 'templates/contact.html'
 		}).
 		otherwise({
