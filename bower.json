@@ -1,0 +1,12 @@
+{
+	"version": "0.1.0",
+	"private": true,
+	"name": "The-Sabah-Ensemble",
+	"description": "The Sabah Ensemble website.",
+	"dependencies": {
+		"angular": "1.2.x",
+		"angular-mocks": "~1.2.x",
+		"angular-route": "~1.2.x",
+		"angular-google-maps": "~1.2.x"
+	}
+}
