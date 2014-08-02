@@ -18,6 +18,10 @@ a:active {
 	background-color: #FFFFFF;
 }
 
+.answer {
+	padding-left: 2em;
+}
+
 body {
 	background-image: url('../assets/img/bg_wallpaper.jpg');
 	color: #777777;
@@ -107,6 +111,11 @@ h3 {
 
 .nav a div {
 	padding-top: 10px;
+}
+
+.question {
+	border-bottom: 1px solid #84AC1F;
+	padding: 2em 0 0.5em 0;
 }
 
 .quote {
