@@ -23,7 +23,12 @@
 
 	<h3 class="question">When and where does your class meet?</h3>
 	<p class="answer">Our class meets on Thursday evenings from 7:45-9:45 pm.  The studio usually opens up at 7:30 pm.</p>
-	<p class="answer">We are part of Berkeley Moving Arts [INSERT LINK TO www.BerkeleyMovingArts.com], a center for dance and movement classes emphasizing a body-mind approach, located at Western Sky Studio.  The address is:  2525 8th Street $13A (near Dwight Way), Berkeley, CA 94710.  [INSERT LINK TO GOOGLE MAPS]</p>
+	<p class="answer">We are part of <a href="http://www.BerkeleyMovingArts.com" target="_blank">Berkeley Moving Arts</a>, a center for dance and movement classes emphasizing a body-mind approach, located at Western Sky Studio.  The address is:  <a href="" ng-click="showMap()">2525 8th Street $13A (near Dwight Way), Berkeley, CA 94710.<a></p>
+	<p class="map" ng-if="show">
+		<google-map center="map.center" pan="false" zoom="map.zoom">
+			<marker coords="map.center"></marker>
+		</google-map>
+	</p>
 
 	<h3 class="question">What should I wear to class?</h3>
 	<p class="answer">We suggest you wear comfortable clothing.  You will usually find us wearing yoga pants or sweat pants, a tshirt, and bare feet.</p>

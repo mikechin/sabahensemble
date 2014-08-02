@@ -10,6 +10,7 @@ se.config(['$routeProvider', function($routeProvider) {
 			templateUrl: 'templates/class.html'
 		}).
 		when('/faq', {
+			controller: 'MapController',
 			templateUrl: 'templates/faq.html'
 		}).
 		when('/news', {
