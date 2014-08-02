@@ -14,8 +14,8 @@ se.config(['$routeProvider', function($routeProvider) {
 		when('/news', {
 			templateUrl: 'templates/news.html'
 		}).
-		when('/photos', {
-			templateUrl: 'templates/photos.html'
+		when('/media', {
+			templateUrl: 'templates/media.html'
 		}).
 		when('/about', {
 			templateUrl: 'templates/about.html'
