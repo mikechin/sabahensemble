@@ -1,17 +1,17 @@
 a:link {
-	color: #777777;
+	color: #999999;
 }
 
 a:visited {
-	color: #777777;
+	color: #999999;
 }
 
 a:hover {
-	color: #777777;
+	color: #999999;
 }
 
 a:active {
-	color: #777777;
+	color: #999999;
 }
 
 .active {
@@ -32,7 +32,7 @@ b {
 
 body {
 	background-image: url('../assets/img/bg_wallpaper.jpg');
-	color: #777777;
+	color: #DDDDDD;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	font-size: 1em;
 }
@@ -61,7 +61,7 @@ blockquote {
 }
 
 .content {
-	background-color: rgba(0, 0, 0, 0.4);
+	background-color: rgba(35, 35, 35, 0.7);
 	height: 100%;
 	margin-left: auto;
 	margin-right: auto;
@@ -85,15 +85,15 @@ h3 {
 	width: 100%;
 }
 
-.header img {
-	min-width: 820px;
-	width: 100%;
-}
-
 li:before {
 	color: #84AC1F;
 	content: "\002022";
 	padding-right: 1em;
+}
+
+img.full {
+	min-width: 820px;
+	width: 100%;
 }
 
 .map {
