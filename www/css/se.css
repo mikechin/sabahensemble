@@ -37,8 +37,12 @@ body {
 	font-size: 1em;
 }
 
+.fixed-bottom {
+	position: absolute;
+	bottom: 0;
+}
+
 blockquote {
-	background-color: rgba(0,0,0,0.5);
 	font-size: 1em;
 	font-style: italic;
 	padding: 0 2em 0 2em;
@@ -61,7 +65,6 @@ blockquote {
 }
 
 .cite {
-	background-color: rgba(0,0,0,0.5);
 	font-size: 0.8em;
 	font-style: italic;
 	text-align: right;
@@ -74,7 +77,7 @@ blockquote {
 	margin-left: auto;
 	margin-right: auto;
 	padding: 2em 0.5em 2em 0.5em;
-	width: 75%;
+	width: 85%;
 }
 
 h2 {
@@ -103,6 +106,28 @@ li:before {
 	color: #84AC1F;
 	content: "\002022";
 	padding-right: 1em;
+}
+
+.image-background {
+	position: relative;
+}
+
+.image-background .top {
+	position: absolute;
+	top: 0;
+	left: 2em;
+	right: 2em;
+	padding: 1em 2em 1em 2em;
+	background-color: rgba(0,0,0,0.5);
+}
+
+.image-background .bottom {
+	position: absolute;
+	bottom: 4px;
+	left: 2em;
+	right: 2em;
+	padding: 1em 0 1em 0;
+	background-color: rgba(0,0,0,0.5);
 }
 
 img.full {
@@ -175,28 +200,6 @@ img.full {
 	padding: 0 2em 0 2em;
 }
 
-.image-background {
-	position: relative;
-}
-
-.image-background .top {
-	position: absolute;
-	top: 0;
-	left: 2em;
-	right: 2em;
-	padding: 1em 2em 1em 2em;
-	background-color: rgba(0,0,0,0.5);
-}
-
-.image-background .bottom {
-	position: absolute;
-	bottom: 4px;
-	left: 2em;
-	right: 2em;
-	padding: 1em 2em 1em 2em;
-	background-color: rgba(0,0,0,0.5);
-}
-
 table {
 	empty-cells: show;
 	padding-bottom: 2em;
@@ -213,4 +216,8 @@ ul {
 .view {
 	min-width: 820px;
 	width: 100%;
+}
+
+.with-bottom {
+	position: relative;
 }
