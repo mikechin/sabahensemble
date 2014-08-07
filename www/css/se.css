@@ -54,6 +54,12 @@ blockquote {
 	text-align: center;
 }
 
+.caption {
+	background-color: rgba(0,0,0,0.5);
+	font-style: italic;
+	text-align: center;
+}
+
 .cite {
 	background-color: rgba(0,0,0,0.5);
 	font-size: 0.8em;
@@ -144,6 +150,20 @@ img.full {
 
 .nav a div {
 	padding-top: 10px;
+}
+
+.pull-fixed {
+	height: 150px;
+}
+
+.pull-right {
+	float: right;
+	max-height: 275px;
+}
+
+.pull-right-sm {
+	float: right;
+	max-width: 150px;
 }
 
 .question {
