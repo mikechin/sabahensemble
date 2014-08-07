@@ -31,6 +31,20 @@ se.config(['$routeProvider', function($routeProvider) {
 		})
 }]);
 
+se.controller('HeaderController', ['$scope', '$location', function($scope, $location) {
+	$scope.is = function(path) {
+		if(!path) {
+			return true;
+		}
+		else if(path === $location.path()) {
+			return true;
+		}
+		else {
+			return false;
+		}
+	};
+}]);
+
 se.controller('NavController', ['$scope', '$location', function($scope, $location) {
 	$scope.isActive = function(path) {
 		return path === $location.path();
