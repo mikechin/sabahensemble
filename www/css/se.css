@@ -1,21 +1,21 @@
 a:link {
-	color: #999999;
+	color: #999;
 }
 
 a:visited {
-	color: #999999;
+	color: #999;
 }
 
 a:hover {
-	color: #999999;
+	color: #999;
 }
 
 a:active {
-	color: #999999;
+	color: #999;
 }
 
 .active {
-	background-color: #FFFFFF;
+	background-color: #CCC;
 }
 
 .angular-google-map-container {
@@ -32,14 +32,16 @@ b {
 
 body {
 	background-image: url('../assets/img/bg_wallpaper.jpg');
-	color: #DDDDDD;
+	color: #DDD;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	font-size: 1em;
 }
 
 blockquote {
+	background-color: rgba(0,0,0,0.5);
 	font-size: 1em;
 	font-style: italic;
+	padding: 0 2em 0 2em;
 	-webkit-margin-after: 0;
 	-webkit-margin-before: 0;
 	-webkit-margin-end: 0;
@@ -53,10 +55,11 @@ blockquote {
 }
 
 .cite {
+	background-color: rgba(0,0,0,0.5);
 	font-size: 0.8em;
 	font-style: italic;
 	text-align: right;
-	padding-top: 1em;
+	padding: 1em 3em 0 0;
 }
 
 .content {
@@ -79,7 +82,13 @@ h3 {
 }
 
 .header {
-	background-color: #777777;
+	background-color: #F17A2E;
+	min-width: 820px;
+	width: 100%;
+}
+
+.header2 {
+	background-color: #DB0404;
 	min-width: 820px;
 	width: 100%;
 }
@@ -99,8 +108,8 @@ img.full {
 }
 
 .nav {
-	background-color: #777777;
-	border-top: 1px solid #000000;
+	background-color: #777;
+	border-top: 1px solid #000;
 	height: 40px;
 	min-width: 820px;
 	width: 100%;
@@ -114,22 +123,22 @@ img.full {
 }
 
 .nav a:link {
-	color: #000000;
+	color: #000;
 	text-decoration: none;
 }
 
 .nav a:visited {
-	color: #000000;
+	color: #000;
 	text-decoration: none;
 }
 
 .nav a:hover {
-	color: #000000;
+	color: #000;
 	text-decoration: none;
 }
 
 .nav a:active {
-	color: #000000;
+	color: #000;
 	text-decoration: none;
 }
 
