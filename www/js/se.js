@@ -1,5 +1,5 @@
 var se = angular.module('se', ['ngRoute', 'google-maps']);
-var _analytics = true;
+var _analytics = false;
 
 se.run(function() {
 	if(_analytics) {
