@@ -30,6 +30,16 @@ b {
 	color: #84AC1F;	
 }
 
+.bio {
+	float: left;
+	margin-left: 2em;
+	max-width: 60%;
+}
+
+.bio p:first-child {
+	margin-top: 0;
+}
+
 body {
 	background-image: url('../assets/img/bg_wallpaper.jpg');
 	color: #DDD;
@@ -53,6 +63,7 @@ blockquote {
 }
 
 .break {
+	clear: both;
 	color: #84AC1F;
 	font-size: 2em;
 	text-align: center;
@@ -196,18 +207,14 @@ img.large {
 	padding-top: 10px;
 }
 
-.pull-fixed {
-	height: 150px;
-}
-
 .pull-right {
 	float: right;
-	max-height: 275px;
+	max-width: 275px;
 }
 
-.pull-right-sm {
-	float: right;
-	max-width: 150px;
+.pull-left {
+	float: left;
+	max-width: 30%;
 }
 
 .question {
