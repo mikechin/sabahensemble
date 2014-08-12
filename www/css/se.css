@@ -108,19 +108,25 @@ h3 {
 }
 
 .header {
-	background-color: #F17A2E;
+	background-color: #BB00DD;
 	min-width: 820px;
 	width: 100%;
 }
 
 .header2 {
-	background-color: #DB0404;
+	background-color: #9900CC;
 	min-width: 820px;
 	width: 100%;
 }
 
 .header3 {
-	background-color: #BB00DD;
+	background-color: #9900DD;
+	min-width: 820px;
+	width: 100%;
+}
+
+.header4 {
+	background-color: #8800BB;
 	min-width: 820px;
 	width: 100%;
 }
