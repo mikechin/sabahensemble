@@ -40,14 +40,12 @@ se.config(['$routeProvider', function($routeProvider) {
 		});
 }]);
 
-se.controller('FooterController', ['$scope', '$location', '$anchorScroll', function($scope, $location, $anchorScroll) {
-	$scope.backToTop = function() {
-		$location.hash('top');
+se.controller('NavController', ['$scope', '$location', '$anchorScroll', function($scope, $location, $anchorScroll) {
+	$scope.go = function(id) {
+		$location.hash(id);
 		$anchorScroll();
 	};
-}]);
 
-se.controller('NavController', ['$scope', '$location', function($scope, $location) {
 	$scope.isActive = function(path) {
 		return path === $location.path();
 	};

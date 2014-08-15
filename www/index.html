@@ -25,9 +25,9 @@
 			<a href="#/contact" ng-class="{ active: isActive('/contact') }"><div>CONTACT US</div></a>
 		</div>
 		<div class="view" ng-view></div>
-		<div class="footer" ng-controller="FooterController">
-			<div class="arrow-up" ng-click="backToTop()"></div>
-			<a href="" ng-click="backToTop()">Top</a>
+		<div class="footer" ng-controller="NavController">
+			<div class="arrow-up" ng-click="go('top')"></div>
+			<a href="" ng-click="go('top')">Top</a>
 		</div>
 	</body>
 </html>
