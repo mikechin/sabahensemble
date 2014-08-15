@@ -231,6 +231,11 @@ img.large {
 	padding: 0 2em 0 2em;
 }
 
+.quote .below {
+	padding: 1em 0 1em 0;
+	background-color: rgba(0,0,0,0.5);
+}
+
 table {
 	empty-cells: show;
 	padding-bottom: 2em;
