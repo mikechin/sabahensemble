@@ -11,11 +11,10 @@
 		<script src="js/se.js"></script>
 	</head>
 	<body>
-		<div ng-controller="HeaderController">
-			<div ng-class="{ header: is('/'), header2: is('/class'), header3: is('/faq'), header4: is('/news') }">
-				<img class="full" src="assets/img/logo-wht.png" alt="The Sabah Ensemble" />
-			</div>
-		<div>
+		<a id="top"></a>
+		<div class="header">
+			<img class="full" src="assets/img/logo-wht.png" alt="The Sabah Ensemble" />
+		</div>
 		<div class="nav" ng-controller="NavController">
 			<a href="#/home" ng-class="{ active: isActive('/') }"><div>HOME</div></a>
 			<a href="#/class" ng-class="{ active: isActive('/class') }"><div>CLASS</div></a>
@@ -26,5 +25,9 @@
 			<a href="#/contact" ng-class="{ active: isActive('/contact') }"><div>CONTACT US</div></a>
 		</div>
 		<div class="view" ng-view></div>
+		<div class="footer" ng-controller="FooterController">
+			<div class="arrow-up" ng-click="backToTop()"></div>
+			<a href="" ng-click="backToTop()">Top</a>
+		</div>
 	</body>
 </html>

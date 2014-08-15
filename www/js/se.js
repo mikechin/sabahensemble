@@ -37,20 +37,13 @@ se.config(['$routeProvider', function($routeProvider) {
 		}).
 		otherwise({
 			redirectTo: '/'
-		})
+		});
 }]);
 
-se.controller('HeaderController', ['$scope', '$location', function($scope, $location) {
-	$scope.is = function(path) {
-		if(!path) {
-			return true;
-		}
-		else if(path === $location.path()) {
-			return true;
-		}
-		else {
-			return false;
-		}
+se.controller('FooterController', ['$scope', '$location', '$anchorScroll', function($scope, $location, $anchorScroll) {
+	$scope.backToTop = function() {
+		$location.hash('top');
+		$anchorScroll();
 	};
 }]);
 
