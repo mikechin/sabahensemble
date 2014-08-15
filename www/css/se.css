@@ -92,11 +92,22 @@ blockquote {
 	width: 70%;
 }
 
+div.center {
+	margin-left: auto;
+	margin-right: auto;
+	width: 91%;
+}
+
 .cite {
 	font-size: 0.8em;
 	font-style: italic;
 	text-align: right;
 	padding: 1em 3em 0 0;
+}
+
+.clear {
+	clear: both;
+	
 }
 
 .content {
@@ -162,6 +173,15 @@ img.full {
 	width: 100%;
 }
 
+img.half {
+	max-height: 290px;
+	max-width: 490px;
+}
+
+img.small {
+	max-width: 30%;
+}
+
 img.large {
 	display: block;
 	margin-left: auto;
@@ -219,7 +239,6 @@ img.large {
 
 .pull-left {
 	float: left;
-	max-width: 30%;
 }
 
 .question {
