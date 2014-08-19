@@ -1,17 +1,17 @@
 a:link {
-	color: #999;
+	color: #84AC1F;
 }
 
 a:visited {
-	color: #999;
+	color: #84AC1F;
 }
 
 a:hover {
-	color: #999;
+	color: #84AC1F;
 }
 
 a:active {
-	color: #999;
+	color: #84AC1F;
 }
 
 .active {
@@ -127,6 +127,10 @@ div.center {
 	padding-top: 1em;
 	text-align: center;
 	width: 100%;
+}
+
+.no-padding {
+	padding: 0;
 }
 
 h2 {
