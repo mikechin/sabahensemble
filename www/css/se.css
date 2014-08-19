@@ -258,6 +258,10 @@ img.large {
 	background-color: rgba(0,0,0,0.5);
 }
 
+span {
+	display: block;
+}
+
 table {
 	empty-cells: show;
 	padding-bottom: 2em;
