@@ -92,12 +92,6 @@ blockquote {
 	width: 70%;
 }
 
-div.center {
-	margin-left: auto;
-	margin-right: auto;
-	width: 91%;
-}
-
 .cite {
 	font-size: 0.8em;
 	font-style: italic;
@@ -182,11 +176,6 @@ li:before {
 
 img.full {
 	width: 100%;
-}
-
-img.half {
-	max-height: 290px;
-	max-width: 490px;
 }
 
 img.small {
