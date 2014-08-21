@@ -89,7 +89,13 @@ blockquote {
 .caption.large {
 	margin-left: auto;
 	margin-right: auto;
-	width: 70%;
+	width: 790px;
+}
+
+/* custom for Summer Celebration Concert 2010 photo. */
+.caption.large.customwidth {
+	max-width: 500px;
+	width: 500px;
 }
 
 .cite {
@@ -186,7 +192,11 @@ img.large {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 70%;
+	max-width: 790px;
+}
+
+img.large.customwidth {
+	max-width: 500px;
 }
 
 .map {
