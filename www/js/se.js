@@ -8,7 +8,7 @@ se.run(['analytics', function(analytics) {
 	}
 }]);
 
-se.config(['$routeProvider', function($routeProvider) {
+se.config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {
 	$routeProvider.
 		when('/', {
 			templateUrl: 'templates/home.html'
@@ -37,6 +37,8 @@ se.config(['$routeProvider', function($routeProvider) {
 		otherwise({
 			redirectTo: '/'
 		});
+
+		$locationProvider.html5Mode(true);
 }]);
 
 se.factory('analytics', function() {
