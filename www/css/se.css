@@ -274,7 +274,7 @@ span {
 
 table {
 	empty-cells: show;
-	padding-bottom: 2em;
+	padding-bottom: 0.5em;
 }
 
 td {
